@@ -1,0 +1,194 @@
+[
+ {
+  "name": "c110_i9_p",
+  "config": 110,
+  "ion": 9,
+  "species": "Na",
+  "sign": 1,
+  "delta": 0.05
+ },
+ {
+  "name": "c110_i9_m",
+  "config": 110,
+  "ion": 9,
+  "species": "Na",
+  "sign": -1,
+  "delta": 0.05
+ },
+ {
+  "name": "c110_i60_p",
+  "config": 110,
+  "ion": 60,
+  "species": "Cl",
+  "sign": 1,
+  "delta": 0.05
+ },
+ {
+  "name": "c110_i60_m",
+  "config": 110,
+  "ion": 60,
+  "species": "Cl",
+  "sign": -1,
+  "delta": 0.05
+ },
+ {
+  "name": "c143_i2_p",
+  "config": 143,
+  "ion": 2,
+  "species": "Na",
+  "sign": 1,
+  "delta": 0.05
+ },
+ {
+  "name": "c143_i2_m",
+  "config": 143,
+  "ion": 2,
+  "species": "Na",
+  "sign": -1,
+  "delta": 0.05
+ },
+ {
+  "name": "c143_i86_p",
+  "config": 143,
+  "ion": 86,
+  "species": "Cl",
+  "sign": 1,
+  "delta": 0.05
+ },
+ {
+  "name": "c143_i86_m",
+  "config": 143,
+  "ion": 86,
+  "species": "Cl",
+  "sign": -1,
+  "delta": 0.05
+ },
+ {
+  "name": "c148_i11_p",
+  "config": 148,
+  "ion": 11,
+  "species": "Na",
+  "sign": 1,
+  "delta": 0.05
+ },
+ {
+  "name": "c148_i11_m",
+  "config": 148,
+  "ion": 11,
+  "species": "Na",
+  "sign": -1,
+  "delta": 0.05
+ },
+ {
+  "name": "c148_i57_p",
+  "config": 148,
+  "ion": 57,
+  "species": "Cl",
+  "sign": 1,
+  "delta": 0.05
+ },
+ {
+  "name": "c148_i57_m",
+  "config": 148,
+  "ion": 57,
+  "species": "Cl",
+  "sign": -1,
+  "delta": 0.05
+ },
+ {
+  "name": "c177_i36_p",
+  "config": 177,
+  "ion": 36,
+  "species": "Na",
+  "sign": 1,
+  "delta": 0.05
+ },
+ {
+  "name": "c177_i36_m",
+  "config": 177,
+  "ion": 36,
+  "species": "Na",
+  "sign": -1,
+  "delta": 0.05
+ },
+ {
+  "name": "c177_i89_p",
+  "config": 177,
+  "ion": 89,
+  "species": "Cl",
+  "sign": 1,
+  "delta": 0.05
+ },
+ {
+  "name": "c177_i89_m",
+  "config": 177,
+  "ion": 89,
+  "species": "Cl",
+  "sign": -1,
+  "delta": 0.05
+ },
+ {
+  "name": "c180_i42_p",
+  "config": 180,
+  "ion": 42,
+  "species": "Na",
+  "sign": 1,
+  "delta": 0.05
+ },
+ {
+  "name": "c180_i42_m",
+  "config": 180,
+  "ion": 42,
+  "species": "Na",
+  "sign": -1,
+  "delta": 0.05
+ },
+ {
+  "name": "c180_i71_p",
+  "config": 180,
+  "ion": 71,
+  "species": "Cl",
+  "sign": 1,
+  "delta": 0.05
+ },
+ {
+  "name": "c180_i71_m",
+  "config": 180,
+  "ion": 71,
+  "species": "Cl",
+  "sign": -1,
+  "delta": 0.05
+ },
+ {
+  "name": "c182_i20_p",
+  "config": 182,
+  "ion": 20,
+  "species": "Na",
+  "sign": 1,
+  "delta": 0.05
+ },
+ {
+  "name": "c182_i20_m",
+  "config": 182,
+  "ion": 20,
+  "species": "Na",
+  "sign": -1,
+  "delta": 0.05
+ },
+ {
+  "name": "c182_i72_p",
+  "config": 182,
+  "ion": 72,
+  "species": "Cl",
+  "sign": 1,
+  "delta": 0.05
+ },
+ {
+  "name": "c182_i72_m",
+  "config": 182,
+  "ion": 72,
+  "species": "Cl",
+  "sign": -1,
+  "delta": 0.05
+ }
+]

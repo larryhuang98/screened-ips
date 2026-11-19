@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "screened-ips"
+version = "1.0.0"
+description = "Screened isotropic-periodic-sum targets for local machine-learning interatomic potentials"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Zhen Huang"}]
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24", "scipy>=1.10", "ase>=3.23", "pandas>=2.0"]
+
+[project.optional-dependencies]
+mace = ["mace-torch==0.3.16", "torch>=2.2"]
+figures = ["matplotlib>=3.8"]
+
+[tool.setuptools]
+packages = ["screened_ips"]

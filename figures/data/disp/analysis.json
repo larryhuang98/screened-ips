@@ -1,0 +1,11 @@
+{
+ "F_D2_full": 79.09180508690028,
+ "F_QM": 532.4641814541258,
+ "tail_beyond_Rc": 2.7129228254657356,
+ "ips_residual": 11.296190184756679,
+ "Efull_per_atom_meV_mean": -177.6139903599194,
+ "Ecut_per_atom_meV_mean": -152.119043194981,
+ "Eips_per_atom_meV_mean": -153.1575852443367,
+ "Etail_per_atom_sd_meV": 3.476140244317777,
+ "Eips_resid_per_atom_sd_meV": 2.912157378872776
+}

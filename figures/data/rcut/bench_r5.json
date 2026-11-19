@@ -1,0 +1,6 @@
+{
+ "model": "lamscan/L0/models/m.model",
+ "threads": "8",
+ "model_100": 0.05999770388007164,
+ "model_800": 0.43223488703370094
+}

@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.ipynb_checkpoints/
+# working directories created by the scripts
+/data/
+/runs/
+figures/output/
+*.traj.extxyz

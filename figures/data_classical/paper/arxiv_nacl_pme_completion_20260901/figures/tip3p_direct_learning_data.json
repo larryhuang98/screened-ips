@@ -1,0 +1,112 @@
+{
+  "pme": {
+    "overall": {
+      "n_frames": 2000,
+      "energy_bias_per_atom_eV": -0.00004308975746418104,
+      "energy_rmse_per_atom_raw_eV": 0.00008230877230173267,
+      "energy_rmse_per_atom_centered_eV": 0.00007012850204800136,
+      "atomic_force_rmse_eV_A": 0.010916042462831007,
+      "oxygen_force_rmse_eV_A": 0.01500727360527716,
+      "hydrogen_force_rmse_eV_A": 0.00813208731161134,
+      "molecular_net_force_rmse_eV_A": 0.006680309836764605,
+      "molecular_torque_rmse_eV": 0.007805123856131898,
+      "molecular_torque_vector_rms_eV": 0.013518871078188362
+    },
+    "trajectories": [
+      {
+        "trajectory": {
+          "source_origin": "pme",
+          "source_target": "pme",
+          "source_replica": "3",
+          "source_id": "pme_replica3"
+        },
+        "n_frames": 1000,
+        "energy_bias_per_atom_eV": -0.00000758427843997167,
+        "energy_rmse_per_atom_raw_eV": 0.000022370658597529277,
+        "energy_rmse_per_atom_centered_eV": 0.00004127425501896749,
+        "atomic_force_rmse_eV_A": 0.007092411255919745,
+        "oxygen_force_rmse_eV_A": 0.00963184798132271,
+        "hydrogen_force_rmse_eV_A": 0.00539140040870556,
+        "molecular_net_force_rmse_eV_A": 0.005115389004522689,
+        "molecular_torque_rmse_eV": 0.005181577192263962,
+        "molecular_torque_vector_rms_eV": 0.008974754960341272
+      },
+      {
+        "trajectory": {
+          "source_origin": "ips5",
+          "source_target": "ips5",
+          "source_replica": "3",
+          "source_id": "ips5_replica3"
+        },
+        "n_frames": 1000,
+        "energy_bias_per_atom_eV": -0.00007859523648839041,
+        "energy_rmse_per_atom_raw_eV": 0.00011423231429656733,
+        "energy_rmse_per_atom_centered_eV": 0.00009018009465299033,
+        "atomic_force_rmse_eV_A": 0.013711953496039948,
+        "oxygen_force_rmse_eV_A": 0.018912007471233366,
+        "hydrogen_force_rmse_eV_A": 0.010158468866928215,
+        "molecular_net_force_rmse_eV_A": 0.007942661667398168,
+        "molecular_torque_rmse_eV": 0.009746341601838529,
+        "molecular_torque_vector_rms_eV": 0.01688115884230657
+      }
+    ],
+    "model_sha256": "a1c9e9606a989671f40de3984ab00ca82f82b105714a783f5ec7e6cc72bec56e",
+    "status": "FULL_HELDOUT_2000",
+    "source": "experiments/analysis/tip3p_R5_heldout_20260921/pme/metrics.json"
+  },
+  "ips5": {
+    "overall": {
+      "n_frames": 2000,
+      "energy_bias_per_atom_eV": -0.000004789715440123003,
+      "energy_rmse_per_atom_raw_eV": 0.00001088518812676801,
+      "energy_rmse_per_atom_centered_eV": 0.000009774760690563148,
+      "atomic_force_rmse_eV_A": 0.0010404228572170765,
+      "oxygen_force_rmse_eV_A": 0.0013673770194744027,
+      "hydrogen_force_rmse_eV_A": 0.0008299756779787386,
+      "molecular_net_force_rmse_eV_A": 0.0015172766683832445,
+      "molecular_torque_rmse_eV": 0.0006098892600695449,
+      "molecular_torque_vector_rms_eV": 0.00105635918543104
+    },
+    "trajectories": [
+      {
+        "trajectory": {
+          "source_origin": "pme",
+          "source_target": "pme",
+          "source_replica": "3",
+          "source_id": "pme_replica3"
+        },
+        "n_frames": 1000,
+        "energy_bias_per_atom_eV": -0.000005616877463072508,
+        "energy_rmse_per_atom_raw_eV": 0.00001058278454988862,
+        "energy_rmse_per_atom_centered_eV": 0.000009007231173140797,
+        "atomic_force_rmse_eV_A": 0.0010540680820764533,
+        "oxygen_force_rmse_eV_A": 0.0013700670906608356,
+        "hydrogen_force_rmse_eV_A": 0.0008532569167739432,
+        "molecular_net_force_rmse_eV_A": 0.0015324380802410576,
+        "molecular_torque_rmse_eV": 0.0006253084980097341,
+        "molecular_torque_vector_rms_eV": 0.0010830660889574418
+      },
+      {
+        "trajectory": {
+          "source_origin": "ips5",
+          "source_target": "ips5",
+          "source_replica": "3",
+          "source_id": "ips5_replica3"
+        },
+        "n_frames": 1000,
+        "energy_bias_per_atom_eV": -0.000003962553417173498,
+        "energy_rmse_per_atom_raw_eV": 0.000011179414666291847,
+        "energy_rmse_per_atom_centered_eV": 0.000010486261474384368,
+        "atomic_force_rmse_eV_A": 0.0010265962799402486,
+        "oxygen_force_rmse_eV_A": 0.0013646816456088047,
+        "hydrogen_force_rmse_eV_A": 0.0008060222615101632,
+        "molecular_net_force_rmse_eV_A": 0.0015019622189214408,
+        "molecular_torque_rmse_eV": 0.0005940699465661969,
+        "molecular_torque_vector_rms_eV": 0.0010289593307023811
+      }
+    ],
+    "model_sha256": "0aa33738cc910f9e77f26fc7bc5ef8cb9eee821fdfa927cda6ab424e68f672de",
+    "status": "FULL_HELDOUT_2000",
+    "source": "experiments/analysis/tip3p_R5_heldout_20260921/ips5/metrics.json"
+  }
+}

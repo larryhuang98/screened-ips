@@ -1,0 +1,22 @@
+# Versions used for the paper (Python 3.12.2).
+name: screened-ips
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - numpy==2.2.6
+      - scipy==1.18.1
+      - pandas==2.2.3
+      - ase==3.27.0
+      - matplotlib==3.9.2
+      - torch==2.7.0
+      - mace-torch==0.3.16
+      - e3nn==0.4.4
+      # optional, for the NequIP robustness test
+      # - nequip==0.6.2
+      # optional, for MACE-LES runs and the PyTorch timing of Delta (see README):
+      #   LES     https://github.com/ChengUCB/les   commit fadfb0ca3b89ed371e5de6b383f4425defabd4a8
+      #   MACE    https://github.com/ChengUCB/mace  commit c655c940fb42ab96e745c4f3c48b45c91a64d336
+      - -e .
