@@ -16,6 +16,8 @@ and deployed with the exterior restored, `E_theta - lambda * Delta`. For quantum
 strength `lambda` is set by electronic screening (about 0.5 for molten salts) and can be estimated from three
 ordinary trainings.
 
+**New users: start with [docs/GETTING_STARTED.md](docs/GETTING_STARTED.md)** (installation, quick tests and expected results).
+
 ## Installation
 
 ```bash
@@ -60,6 +62,8 @@ print(atoms.get_potential_energy())
 | `figures/` | Figure scripts and all data needed to redraw the figures (see `figures/README.md`) |
 | `docs/protocol/` | Study protocol as frozen before the confirmatory runs, and with time-stamped addenda |
 | `examples/` | Starting configuration and an example batch script |
+| `tests/` | Reference values for the Coulomb and dispersion code (`pytest -q tests`) |
+| `scripts/check_models.py` | Evaluates the shipped models against reference labels |
 
 ## Reproducing the paper
 
